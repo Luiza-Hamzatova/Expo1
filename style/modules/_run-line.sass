@@ -1,0 +1,22 @@
+.run-line 
+  width: 100%
+  margin: 120px auto
+  border-bottom: 1.64px solid #000000
+  border-top: 1.64px solid #000000
+  padding: 10px 0
+  white-space: nowrap
+  overflow: hidden
+  &__img
+    width: 231px
+    display: inline-block
+    padding-left: 100%
+    animation: scroll 15s infinite linear
+    background-image: url("./../image/expovision.png")
+    height: 27px
+    margin-right: 10px
+    @keyframes scroll
+      0% 
+        transform: translate(0, 0)
+      100% 
+        transform: translate(-100%, 0)
+  
